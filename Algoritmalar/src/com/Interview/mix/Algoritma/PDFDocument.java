@@ -1,4 +1,4 @@
-package Algoritma6;
+package com.Interview.mix.Algoritma;
 
 public class PDFDocument {
 

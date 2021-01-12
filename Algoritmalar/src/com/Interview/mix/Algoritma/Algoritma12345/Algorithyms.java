@@ -1,4 +1,4 @@
-package Algoritma12345;
+package com.Interview.mix.Algoritma.Algoritma12345;
 import java.util.Random;
 import java.util.Scanner;
 

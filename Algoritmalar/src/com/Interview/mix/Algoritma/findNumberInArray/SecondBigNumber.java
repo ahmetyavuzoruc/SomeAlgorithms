@@ -1,4 +1,4 @@
-package findNumberInArray;
+package com.Interview.mix.Algoritma.findNumberInArray;
 
 public class SecondBigNumber {
 
