@@ -2,27 +2,23 @@ package com.Interview.mix.Algoritma.findNumberInArray;
 
 public class SecondBigNumber {
 
-	public static void findSecond(int array[],int arr_size) 
+	public static void findSecondValue(int array[])
     { 
-        int i, first, second; 
-       
-        
-      
-       
+        int first, second;
         first = second = array[0];
-        
-        for (i = 0; i < arr_size ; i++) 
+
+        for (int i = 0; i < array.length ; i++)
         { 
           
             if (array[i] > first) 
             { 
-                second = first; 
+                second = first;
                 first = array[i]; 
-            } 
-       
-            
-            else if (array[i] > second && array[i] != first) 
-                second = array[i]; 
+            }
+            else {
+                second = array[i];
+            }
+
         } 
         
         System.out.print("The second largest element"+ 
@@ -32,9 +28,8 @@ public class SecondBigNumber {
       
     public static void main(String[] args)  
     { 
-            int array[] = {12, 35, 1, 10, 34, 1}; 
-            int n = array.length; 
-            findSecond(array, n); 
+            int array[] = {12, 67, 1, 55, 34, 1,2,3,4,5,566,67,78,8,12222};
+            findSecondValue(array);
             
     } 
 
